@@ -70,6 +70,7 @@
 		033E6FC81AA2219400994FA6 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				F197060D1AA219F5004D80BD /* MapaViewController.swift */,
 				F19705EF1AA21777004D80BD /* ViewController.swift */,
 			);
 			name = controller;
@@ -78,6 +79,7 @@
 		033E6FC91AA2228100994FA6 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				F19705F11AA21777004D80BD /* Main.storyboard */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -118,8 +120,6 @@
 				033E6FC91AA2228100994FA6 /* view */,
 				033E6FC81AA2219400994FA6 /* controller */,
 				F19705ED1AA21777004D80BD /* AppDelegate.swift */,
-				F197060D1AA219F5004D80BD /* MapaViewController.swift */,
-				F19705F11AA21777004D80BD /* Main.storyboard */,
 				F19705F41AA21777004D80BD /* Images.xcassets */,
 				F19705F61AA21777004D80BD /* LaunchScreen.xib */,
 				F19705EB1AA21777004D80BD /* Supporting Files */,
