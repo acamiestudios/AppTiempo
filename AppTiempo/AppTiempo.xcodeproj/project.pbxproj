@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033E6FCC1AA2232800994FA6 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 033E6FCB1AA2232800994FA6 /* bus.png */; };
+		033E6FCE1AA2241200994FA6 /* titulo.png in Resources */ = {isa = PBXBuildFile; fileRef = 033E6FCD1AA2241200994FA6 /* titulo.png */; };
 		F19705EE1AA21777004D80BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19705ED1AA21777004D80BD /* AppDelegate.swift */; };
 		F19705F01AA21777004D80BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19705EF1AA21777004D80BD /* ViewController.swift */; };
 		F19705F31AA21777004D80BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19705F11AA21777004D80BD /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		033E6FCB1AA2232800994FA6 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
+		033E6FCD1AA2241200994FA6 /* titulo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titulo.png; sourceTree = "<group>"; };
 		F19705E81AA21776004D80BD /* AppTiempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTiempo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19705EC1AA21777004D80BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F19705ED1AA21777004D80BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,22 @@
 			name = controller;
 			sourceTree = "<group>";
 		};
+		033E6FC91AA2228100994FA6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		033E6FCA1AA2231900994FA6 /* recursos */ = {
+			isa = PBXGroup;
+			children = (
+				033E6FCD1AA2241200994FA6 /* titulo.png */,
+				033E6FCB1AA2232800994FA6 /* bus.png */,
+			);
+			name = recursos;
+			sourceTree = "<group>";
+		};
 		F19705DF1AA21776004D80BD = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +111,8 @@
 		F19705EA1AA21776004D80BD /* AppTiempo */ = {
 			isa = PBXGroup;
 			children = (
+				033E6FCA1AA2231900994FA6 /* recursos */,
+				033E6FC91AA2228100994FA6 /* view */,
 				033E6FC81AA2219400994FA6 /* controller */,
 				F19705ED1AA21777004D80BD /* AppDelegate.swift */,
 				F197060D1AA219F5004D80BD /* MapaViewController.swift */,
@@ -212,8 +234,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033E6FCC1AA2232800994FA6 /* bus.png in Resources */,
 				F19705F31AA21777004D80BD /* Main.storyboard in Resources */,
 				F19705F81AA21777004D80BD /* LaunchScreen.xib in Resources */,
+				033E6FCE1AA2241200994FA6 /* titulo.png in Resources */,
 				F19705F51AA21777004D80BD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
