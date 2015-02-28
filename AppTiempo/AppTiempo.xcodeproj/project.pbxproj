@@ -69,6 +69,13 @@
 			name = controller;
 			sourceTree = "<group>";
 		};
+		033E6FC91AA2228100994FA6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		F19705DF1AA21776004D80BD = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +98,7 @@
 		F19705EA1AA21776004D80BD /* AppTiempo */ = {
 			isa = PBXGroup;
 			children = (
+				033E6FC91AA2228100994FA6 /* view */,
 				033E6FC81AA2219400994FA6 /* controller */,
 				F19705ED1AA21777004D80BD /* AppDelegate.swift */,
 				F197060D1AA219F5004D80BD /* MapaViewController.swift */,
