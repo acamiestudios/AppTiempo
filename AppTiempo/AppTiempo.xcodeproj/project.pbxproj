@@ -61,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033E6FC81AA2219400994FA6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F19705EF1AA21777004D80BD /* ViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
 		F19705DF1AA21776004D80BD = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +91,8 @@
 		F19705EA1AA21776004D80BD /* AppTiempo */ = {
 			isa = PBXGroup;
 			children = (
+				033E6FC81AA2219400994FA6 /* controller */,
 				F19705ED1AA21777004D80BD /* AppDelegate.swift */,
-				F19705EF1AA21777004D80BD /* ViewController.swift */,
 				F197060D1AA219F5004D80BD /* MapaViewController.swift */,
 				F19705F11AA21777004D80BD /* Main.storyboard */,
 				F19705F41AA21777004D80BD /* Images.xcassets */,
@@ -420,6 +428,7 @@
 				F19706091AA21777004D80BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F197060A1AA21777004D80BD /* Build configuration list for PBXNativeTarget "AppTiempoTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +437,7 @@
 				F197060C1AA21777004D80BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
