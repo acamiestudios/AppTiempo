@@ -35,19 +35,19 @@ class MapaViewController: UIViewController {
         if (Ruta=="coonatra")
         {
             annotation2.setCoordinate(ubicacionCoonatra)
-            annotation2.title = "Tiempo aprox. llegada"
+            annotation2.title = "Coonatra llega en"
             annotation2.subtitle = "4 minutos"
         }
         if (Ruta=="santra")
         {
             annotation2.setCoordinate(ubicacionEnvigado)
-            annotation2.title = "Tiempo aprox. llegada"
+            annotation2.title = "Santra llega en"
             annotation2.subtitle = "6 minutos"
         }
         if (Ruta=="envigado")
         {
             annotation2.setCoordinate(ubicacionSantra)
-            annotation2.title = "Tiempo aprox. llegada"
+            annotation2.title = "Envigado llega en"
             annotation2.subtitle = "1 minuto"
         }
         miMapa.addAnnotation(annotation2)

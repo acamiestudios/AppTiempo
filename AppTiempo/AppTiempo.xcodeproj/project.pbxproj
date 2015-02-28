@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		033E6FCC1AA2232800994FA6 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 033E6FCB1AA2232800994FA6 /* bus.png */; };
 		033E6FCE1AA2241200994FA6 /* titulo.png in Resources */ = {isa = PBXBuildFile; fileRef = 033E6FCD1AA2241200994FA6 /* titulo.png */; };
+		033E6FD01AA2325F00994FA6 /* logo_cymetria.png in Resources */ = {isa = PBXBuildFile; fileRef = 033E6FCF1AA2325F00994FA6 /* logo_cymetria.png */; };
+		033E6FD21AA232D700994FA6 /* Ruta-N.png in Resources */ = {isa = PBXBuildFile; fileRef = 033E6FD11AA232D700994FA6 /* Ruta-N.png */; };
 		F19705EE1AA21777004D80BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19705ED1AA21777004D80BD /* AppDelegate.swift */; };
 		F19705F01AA21777004D80BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19705EF1AA21777004D80BD /* ViewController.swift */; };
 		F19705F31AA21777004D80BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19705F11AA21777004D80BD /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 /* Begin PBXFileReference section */
 		033E6FCB1AA2232800994FA6 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
 		033E6FCD1AA2241200994FA6 /* titulo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titulo.png; sourceTree = "<group>"; };
+		033E6FCF1AA2325F00994FA6 /* logo_cymetria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_cymetria.png; sourceTree = "<group>"; };
+		033E6FD11AA232D700994FA6 /* Ruta-N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ruta-N.png"; sourceTree = "<group>"; };
 		F19705E81AA21776004D80BD /* AppTiempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTiempo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19705EC1AA21777004D80BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F19705ED1AA21777004D80BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +91,9 @@
 		033E6FCA1AA2231900994FA6 /* recursos */ = {
 			isa = PBXGroup;
 			children = (
+				033E6FCF1AA2325F00994FA6 /* logo_cymetria.png */,
 				033E6FCD1AA2241200994FA6 /* titulo.png */,
+				033E6FD11AA232D700994FA6 /* Ruta-N.png */,
 				033E6FCB1AA2232800994FA6 /* bus.png */,
 			);
 			name = recursos;
@@ -245,6 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033E6FD21AA232D700994FA6 /* Ruta-N.png in Resources */,
+				033E6FD01AA2325F00994FA6 /* logo_cymetria.png in Resources */,
 				033E6FCC1AA2232800994FA6 /* bus.png in Resources */,
 				F19705F31AA21777004D80BD /* Main.storyboard in Resources */,
 				F19705F81AA21777004D80BD /* LaunchScreen.xib in Resources */,
