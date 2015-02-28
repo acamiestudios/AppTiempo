@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class MapaViewController: UIViewController {
+class MapaViewController: UIViewController, MKMapViewDelegate {
     
     @IBOutlet weak var miMapa: MKMapView!
     
@@ -22,8 +22,10 @@ class MapaViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        miMapa.delegate = self
         println("la ruta es: \(Ruta)")
-        let span = MKCoordinateSpanMake(0.05, 0.05)
+//        let span = MKCoordinateSpanMake(0.05, 0.05)
+                let span = MKCoordinateSpanMake(0.01, 0.01)
         let region = MKCoordinateRegion(center: ubicacionActual , span: span)
         miMapa.setRegion(region, animated: true)
         let annotation = MKPointAnnotation()
@@ -31,32 +33,58 @@ class MapaViewController: UIViewController {
         annotation.title = "Ubicación Actual"
         annotation.subtitle = "Ruta N"
         miMapa.addAnnotation(annotation)
-        let annotation2 = MKPointAnnotation()
+        let annotation2 = Anotacion()
         if (Ruta=="coonatra")
         {
             annotation2.setCoordinate(ubicacionCoonatra)
             annotation2.title = "Coonatra llega en"
             annotation2.subtitle = "4 minutos"
+            annotation2.imageName = "uno.jpg"
         }
         if (Ruta=="santra")
         {
             annotation2.setCoordinate(ubicacionEnvigado)
             annotation2.title = "Santra llega en"
             annotation2.subtitle = "6 minutos"
+            annotation2.imageName = "dos.jpg"
         }
         if (Ruta=="envigado")
         {
             annotation2.setCoordinate(ubicacionSantra)
             annotation2.title = "Envigado llega en"
             annotation2.subtitle = "1 minuto"
+            annotation2.imageName = "tres.jpg"
         }
+        
         miMapa.addAnnotation(annotation2)
+    }
+    
+    func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
+        if !(annotation is Anotacion) {
+            return nil
+        }
+        
+        let reuseId = "miPin"
+        
+        var anView = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseId)
+        if anView == nil {
+            anView = MKAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
+            anView.canShowCallout = true
+        }
+        else {
+            anView.annotation = annotation
+        }
+        let cpa = annotation as Anotacion
+        anView.image = UIImage(named:cpa.imageName)
+        
+        return anView
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
 
     /*

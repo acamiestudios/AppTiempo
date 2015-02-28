@@ -11,6 +11,9 @@
 		033E6FCE1AA2241200994FA6 /* titulo.png in Resources */ = {isa = PBXBuildFile; fileRef = 033E6FCD1AA2241200994FA6 /* titulo.png */; };
 		033E6FD01AA2325F00994FA6 /* logo_cymetria.png in Resources */ = {isa = PBXBuildFile; fileRef = 033E6FCF1AA2325F00994FA6 /* logo_cymetria.png */; };
 		033E6FD21AA232D700994FA6 /* Ruta-N.png in Resources */ = {isa = PBXBuildFile; fileRef = 033E6FD11AA232D700994FA6 /* Ruta-N.png */; };
+		F10BD15A1AA24D9A00E99B80 /* uno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F10BD1571AA24D9A00E99B80 /* uno.jpg */; };
+		F10BD15B1AA24D9A00E99B80 /* tres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F10BD1581AA24D9A00E99B80 /* tres.jpg */; };
+		F10BD15C1AA24D9A00E99B80 /* dos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F10BD1591AA24D9A00E99B80 /* dos.jpg */; };
 		F19705EE1AA21777004D80BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19705ED1AA21777004D80BD /* AppDelegate.swift */; };
 		F19705F01AA21777004D80BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19705EF1AA21777004D80BD /* ViewController.swift */; };
 		F19705F31AA21777004D80BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19705F11AA21777004D80BD /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 		033E6FCD1AA2241200994FA6 /* titulo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titulo.png; sourceTree = "<group>"; };
 		033E6FCF1AA2325F00994FA6 /* logo_cymetria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_cymetria.png; sourceTree = "<group>"; };
 		033E6FD11AA232D700994FA6 /* Ruta-N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ruta-N.png"; sourceTree = "<group>"; };
+		F10BD1571AA24D9A00E99B80 /* uno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uno.jpg; sourceTree = "<group>"; };
+		F10BD1581AA24D9A00E99B80 /* tres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tres.jpg; sourceTree = "<group>"; };
+		F10BD1591AA24D9A00E99B80 /* dos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dos.jpg; sourceTree = "<group>"; };
 		F19705E81AA21776004D80BD /* AppTiempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTiempo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19705EC1AA21777004D80BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F19705ED1AA21777004D80BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 		033E6FCA1AA2231900994FA6 /* recursos */ = {
 			isa = PBXGroup;
 			children = (
+				F10BD1571AA24D9A00E99B80 /* uno.jpg */,
+				F10BD1581AA24D9A00E99B80 /* tres.jpg */,
+				F10BD1591AA24D9A00E99B80 /* dos.jpg */,
 				033E6FCF1AA2325F00994FA6 /* logo_cymetria.png */,
 				033E6FCD1AA2241200994FA6 /* titulo.png */,
 				033E6FD11AA232D700994FA6 /* Ruta-N.png */,
@@ -251,9 +260,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10BD15A1AA24D9A00E99B80 /* uno.jpg in Resources */,
 				033E6FD21AA232D700994FA6 /* Ruta-N.png in Resources */,
 				033E6FD01AA2325F00994FA6 /* logo_cymetria.png in Resources */,
 				033E6FCC1AA2232800994FA6 /* bus.png in Resources */,
+				F10BD15C1AA24D9A00E99B80 /* dos.jpg in Resources */,
+				F10BD15B1AA24D9A00E99B80 /* tres.jpg in Resources */,
 				F19705F31AA21777004D80BD /* Main.storyboard in Resources */,
 				F19705F81AA21777004D80BD /* LaunchScreen.xib in Resources */,
 				033E6FCE1AA2241200994FA6 /* titulo.png in Resources */,
