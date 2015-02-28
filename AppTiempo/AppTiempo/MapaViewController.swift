@@ -13,10 +13,16 @@ class MapaViewController: UIViewController {
     
     @IBOutlet weak var miMapa: MKMapView!
     
+    var Ruta = ""
+    
+    let ubicacionActual = CLLocationCoordinate2D(latitude: 6.2649594, longitude: -75.5668157)
+    let ubicacionCoonatra = CLLocationCoordinate2D(latitude: 6.264042, longitude: -75.563951)
+    let ubicacionEnvigado = CLLocationCoordinate2D(latitude: 6.270459, longitude: -75.566157)
+    let ubicacionSantra = CLLocationCoordinate2D(latitude: 6.264817, longitude: -75.565492)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let ubicacionActual = CLLocationCoordinate2D(latitude: 6.2649594, longitude: -75.5668157)
         let span = MKCoordinateSpanMake(0.05, 0.05)
         let region = MKCoordinateRegion(center: ubicacionActual , span: span)
         miMapa.setRegion(region, animated: true)
@@ -25,6 +31,26 @@ class MapaViewController: UIViewController {
         annotation.title = "Ubicación Actual"
         annotation.subtitle = "Ruta N"
         miMapa.addAnnotation(annotation)
+        let annotation2 = MKPointAnnotation()
+        if (Ruta=="coonatra")
+        {
+            annotation2.setCoordinate(ubicacionCoonatra)
+            annotation2.title = "Tiempo aprox. llegada"
+            annotation2.subtitle = "4 minutos"
+        }
+        if (Ruta=="santra")
+        {
+            annotation2.setCoordinate(ubicacionEnvigado)
+            annotation2.title = "Tiempo aprox. llegada"
+            annotation2.subtitle = "6 minutos"
+        }
+        if (Ruta=="envigado")
+        {
+            annotation2.setCoordinate(ubicacionSantra)
+            annotation2.title = "Tiempo aprox. llegada"
+            annotation2.subtitle = "1 minuto"
+        }
+        miMapa.addAnnotation(annotation2)
     }
 
     override func didReceiveMemoryWarning() {
