@@ -17,6 +17,7 @@
 		F19706041AA21777004D80BD /* AppTiempoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19706031AA21777004D80BD /* AppTiempoTests.swift */; };
 		F197060E1AA219F5004D80BD /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F197060D1AA219F5004D80BD /* MapaViewController.swift */; };
 		F19706101AA21A43004D80BD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F197060F1AA21A43004D80BD /* MapKit.framework */; };
+		F19706131AA228A8004D80BD /* Anotacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19706121AA228A8004D80BD /* Anotacion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F19706031AA21777004D80BD /* AppTiempoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTiempoTests.swift; sourceTree = "<group>"; };
 		F197060D1AA219F5004D80BD /* MapaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
 		F197060F1AA21A43004D80BD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F19706121AA228A8004D80BD /* Anotacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anotacion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		F19705EA1AA21776004D80BD /* AppTiempo */ = {
 			isa = PBXGroup;
 			children = (
+				F19706111AA2281E004D80BD /* entidades */,
 				033E6FCA1AA2231900994FA6 /* recursos */,
 				033E6FC91AA2228100994FA6 /* view */,
 				033E6FC81AA2219400994FA6 /* controller */,
@@ -147,6 +150,14 @@
 				F19706021AA21777004D80BD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F19706111AA2281E004D80BD /* entidades */ = {
+			isa = PBXGroup;
+			children = (
+				F19706121AA228A8004D80BD /* Anotacion.swift */,
+			);
+			name = entidades;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				F19705F01AA21777004D80BD /* ViewController.swift in Sources */,
 				F197060E1AA219F5004D80BD /* MapaViewController.swift in Sources */,
+				F19706131AA228A8004D80BD /* Anotacion.swift in Sources */,
 				F19705EE1AA21777004D80BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
