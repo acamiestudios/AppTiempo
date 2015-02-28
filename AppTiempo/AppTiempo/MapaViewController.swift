@@ -22,7 +22,7 @@ class MapaViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        println("la ruta es: \(Ruta)")
         let span = MKCoordinateSpanMake(0.05, 0.05)
         let region = MKCoordinateRegion(center: ubicacionActual , span: span)
         miMapa.setRegion(region, animated: true)
