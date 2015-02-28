@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>735B8365-6CE6-40A6-96FF-B41681B64149</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AppTiempo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E3629634E8F783090C335E9FD983214CE416C3B0</key>
+		<string>https://github.com/acamiestudios/AppTiempo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AppTiempo/AppTiempo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E3629634E8F783090C335E9FD983214CE416C3B0</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/acamiestudios/AppTiempo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E3629634E8F783090C335E9FD983214CE416C3B0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E3629634E8F783090C335E9FD983214CE416C3B0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AppTiempo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
